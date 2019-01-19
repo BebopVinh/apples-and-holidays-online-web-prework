@@ -57,6 +57,7 @@ def add_new_holiday_with_supplies(holiday_hash, this_season, holiday_name, suppl
     end
   end
   holiday_hash
+  binding.pry
 end
 
 def all_winter_holiday_supplies(holiday_hash)
