@@ -66,7 +66,8 @@ def all_winter_holiday_supplies(holiday_hash)
         winter_supplies.concat items
       end
     end
-      
+
+    winter_supplies
 
 end
 
