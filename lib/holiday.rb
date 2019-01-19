@@ -53,7 +53,6 @@ def add_new_holiday_with_supplies(holiday_hash, this_season, holiday_name, suppl
   holiday_hash.each do |season, date|
     if season == this_season
       season[holiday_name] = supply_array
-      end
     end
   end
   holiday_hash
